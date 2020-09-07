@@ -1,22 +1,20 @@
 # setup.py file
 
-from setuptools import find_packages, setup
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
-    name="Lambdata-assignment1", # the name that you will install via pip
+setuptools.setup(
+    name="Lambdata-assignment1", # Replace with your own username
     version="0.0.1",
     author="Elif Ayar",
-    author_email="eayar2020@gmail.com",
-    description="Collection of Data Science assignment first",
+    author_email="author@example.com",
+    description="A small example package",
     long_description=long_description,
-    long_description_content_type="text/markdown", # required if using a md file for long desc
-    #license="MIT",
+    long_description_content_type="text/markdown",
     url="https://github.com/ayarelif/Lambdata-assignment1",
-    #keywords="",
-    packages=find_packages(), # ["my_lambdata"],
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

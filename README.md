@@ -3,7 +3,7 @@ Collection of data Science for first assignment.
 
 ## Installation
 
-DO
+pip install -i https://test.pypi.org/simple/ Lambdata-assignment1
 
 ## Usage
 
